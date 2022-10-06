@@ -1,0 +1,41 @@
+.btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px 0;
+    padding: 0 16px;
+    button {
+            margin-left: 10px;
+    }
+}
+
+.ant-table-wrapper {
+    table  {
+        thead {
+            tr {
+                th {
+                    background: #333 !important;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.ant-pagination {
+    display: flex;
+    justify-content: center;
+}
+
+@media print {
+    button {
+       visibility: hidden;
+    }
+ }
+ .ant-input-group-wrapper {
+     display: flex;
+     justify-content: flex-end;
+     margin: 18px 0;
+     padding: 0 16px;
+     .ant-input-wrapper {
+         max-width: 320px;
+     }
+}
